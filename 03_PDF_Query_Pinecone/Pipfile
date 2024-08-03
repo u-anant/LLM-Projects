@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+unstructured = "*"
+tiktoken = "*"
+pypdf = "*"
+langchain = "*"
+pandas = "*"
+numpy = "*"
+python-dotenv = "*"
+ipykernel = "*"
+langchain-community = "*"
+ipywidgets = "*"
+langchain-openai = "*"
+langchain-pinecone = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
